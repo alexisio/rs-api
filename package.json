@@ -1,11 +1,11 @@
 {
-  "name": "runescape-api",
-  "version": "1.0.9",
+  "name": "rs-api",
+  "version": "2.0.0",
   "description": "Simple wrapper for RuneScape APIs written in node.",
-  "author": "Joshua Filby <joshuaf@shadowscripts.net>",
+  "author": "Alex Kempf <ackempf@eagles.usi.edu>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Joshua-F/runescape-api"
+    "url": "https://github.com/alexisio/rs-api"
   },
   "keywords": [
     "runescape",
@@ -13,11 +13,12 @@
     "api"
   ],
   "bugs": {
-    "url": "https://github.com/Joshua-F/runescape-api/issues"
+    "url": "https://github.com/alexisio/rs-api/issues"
   },
   "dependencies": {
     "promise": "^7.0.1",
-    "request": "^2.56.0"
+    "request": "^2.56.0",
+    "rss-to-json": "^1.0.2"
   },
   "devDependencies": {
     "chai": "^3.0.0",

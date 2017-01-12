@@ -1,67 +1,78 @@
 {
-  "hiscores": {
-    "urls": {
-      "normal": "http://services.runescape.com/m=hiscore/index_lite.ws?player=",
-      "ironman": "http://services.runescape.com/m=hiscore_ironman/index_lite.ws?player=",
-      "hardcore": "http://services.runescape.com/m=hiscore_hardcore_ironman/index_lite.ws?player=",
-      "clan": "http://services.runescape.com/m=clan-hiscores/members_lite.ws?clanName="
+  "player": {
+    "hiscores": {
+      "urls": {
+        "normal": "http://services.runescape.com/m=hiscore/index_lite.ws?player=",
+        "ironman": "http://services.runescape.com/m=hiscore_ironman/index_lite.ws?player=",
+        "hardcore": "http://services.runescape.com/m=hiscore_hardcore_ironman/index_lite.ws?player="
+      },
+      "skills": [
+        "Overall",
+        "Attack",
+        "Defence",
+        "Strength",
+        "Hitpoints",
+        "Ranged",
+        "Prayer",
+        "Magic",
+        "Cooking",
+        "Woodcutting",
+        "Fletching",
+        "Fishing",
+        "Firemaking",
+        "Crafting",
+        "Smithing",
+        "Mining",
+        "Herblore",
+        "Agility",
+        "Thieving",
+        "Slayer",
+        "Farming",
+        "Runecrafting",
+        "Hunter",
+        "Construction",
+        "Summoning",
+        "Dungeoneering",
+        "Divination",
+        "Invention"
+      ],
+      "activities": [
+        "Bounty Hunter",
+        "B.H. Rogues",
+        "Dominion Tower",
+        "The Crucible",
+        "Castle Wars games",
+        "B.A. Attackers",
+        "B.A. Defenders",
+        "B.A. Collectors",
+        "B.A. Healers",
+        "Duel Tournament",
+        "Mobilising Armies",
+        "Conquest",
+        "Fist of Guthix",
+        "GG: Athletics",
+        "GG: Resource Race",
+        "WE2: Armadyl Lifetime Contribution",
+        "WE2: Bandos Lifetime Contribution",
+        "WE2: Armadyl PvP kills",
+        "WE2: Bandos PvP kills",
+        "Heist Guard Level",
+        "Heist Robber Level",
+        "CFP: 5 game average",
+        "AF15: Cow Tipping",
+        "AF15: Rats killed after the miniquest"
+      ]
     },
-    "skills": [
-      "Overall",
-      "Attack",
-      "Defence",
-      "Strength",
-      "Hitpoints",
-      "Ranged",
-      "Prayer",
-      "Magic",
-      "Cooking",
-      "Woodcutting",
-      "Fletching",
-      "Fishing",
-      "Firemaking",
-      "Crafting",
-      "Smithing",
-      "Mining",
-      "Herblore",
-      "Agility",
-      "Thieving",
-      "Slayer",
-      "Farming",
-      "Runecrafting",
-      "Hunter",
-      "Construction",
-      "Summoning",
-      "Dungeoneering",
-      "Divination",
-      "Invention"
-    ],
-    "activities": [
-      "Bounty Hunter",
-      "B.H. Rogues",
-      "Dominion Tower",
-      "The Crucible",
-      "Castle Wars games",
-      "B.A. Attackers",
-      "B.A. Defenders",
-      "B.A. Collectors",
-      "B.A. Healers",
-      "Duel Tournament",
-      "Mobilising Armies",
-      "Conquest",
-      "Fist of Guthix",
-      "GG: Athletics",
-      "GG: Resource Race",
-      "WE2: Armadyl Lifetime Contribution",
-      "WE2: Bandos Lifetime Contribution",
-      "WE2: Armadyl PvP kills",
-      "WE2: Bandos PvP kills",
-      "Heist Guard Level",
-      "Heist Robber Level",
-      "CFP: 5 game average",
-      "AF15: Cow Tipping",
-      "AF15: Rats killed after the miniquest"
-    ]
+    "events": {
+      "urls": {
+        "adventures": "http://services.runescape.com/m=adventurers-log/c=tB0ermS1flc/rssfeed?searchName="
+      }
+    }
+  },
+  "clan": {
+    "urls": {
+      "members": "http://services.runescape.com/m=clan-hiscores/members_lite.ws?clanName="
+    }
   },
   "bestiary": {
     "urls": {
@@ -82,7 +93,8 @@
       "category": "http://services.runescape.com/m=itemdb_rs/api/catalogue/category.json?category=",
       "categoryPrice": "http://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?",
       "graph": "http://services.runescape.com/m=itemdb_rs/api/graph/",
-      "information": "http://services.runescape.com/m=itemdb_rs/api/catalogue/detail.json?item="
+      "information": "http://services.runescape.com/m=itemdb_rs/api/catalogue/detail.json?item=",
+      "rscript": "http://rscript.org/lookup.php?type=ge&search="
     },
     "categories": [
       "Miscellaneous",
