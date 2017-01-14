@@ -8,7 +8,7 @@ chai.should();
 chai.use(require('chai-things'));
 
 describe('GrandExchange', function() {
-    describe('category', function() {
+    describe('#category', function() {
         it('should return an object containing a categories information', function(done) {
             return api.rs.ge.category(0).then(function(category) {
                 expect(category).to.not.be.empty;
@@ -17,7 +17,7 @@ describe('GrandExchange', function() {
         });
     });
 
-    describe('categoryPrices', function() {
+    describe('#categoryPrices', function() {
         var category;
 
         before(function() {
@@ -38,7 +38,7 @@ describe('GrandExchange', function() {
         });
     });
 
-    describe('graphData', function() {
+    describe('#graphData', function() {
         it('should return an object containing data for the past 180 days', function(done) {
             return api.rs.ge.graphData(4151).then(function(item) {
                 expect(item.daily).to.not.be.empty;
@@ -47,9 +47,18 @@ describe('GrandExchange', function() {
         });
     });
 
-    describe('itemInformation', function() {
+    describe('#itemInformation', function() {
         it('should return an object containing an items information', function(done) {
             return api.rs.ge.itemInformation(4151).then(function(item) {
+                expect(item).to.not.be.empty;
+                done();
+            });
+        });
+    });
+
+    describe('#itemId', function() {
+        it('should return an object containing an items information', function(done) {
+            return api.rs.ge.itemId('noxious longbow').then(function(item) {
                 expect(item).to.not.be.empty;
                 done();
             });

@@ -1,57 +1,79 @@
-## Functions
-<dl>
-<dt><a href="#category">category(key)</a></dt>
-<dd><p>Returns an object containing the number of items in the category for each starting letter</p>
-</dd>
-<dt><a href="#categoryPrices">categoryPrices(key, prefix, page)</a></dt>
-<dd><p>Gets items in a category starting with a specific prefix</p>
-</dd>
-<dt><a href="#graphData">graphData(item)</a></dt>
-<dd><p>Return the price information for each day for 180 days</p>
-</dd>
-<dt><a href="#itemInformation">itemInformation(item)</a></dt>
-<dd><p>Get an items current price, its price trend over 30, 90, and 180 days as well as its category and image urls.</p>
-</dd>
-</dl>
-<a name="category"></a>
-## category(key)
+# Global
+
+
+
+
+
+* * *
+
+### category(key) 
+
 Returns an object containing the number of items in the category for each starting letter
 
-**Kind**: global function  
+**Parameters**
 
-| Param | Description |
-| --- | --- |
-| key | The category id or name |
+**key**: , The category id or name
 
-<a name="categoryPrices"></a>
-## categoryPrices(key, prefix, page)
+**Returns**: `Object`, Items in the category
+
+
+### categoryPrices(key, prefix, page) 
+
 Gets items in a category starting with a specific prefix
 
-**Kind**: global function  
+**Parameters**
 
-| Param | Description |
-| --- | --- |
-| key | The category id or name |
-| prefix | An item's prefix |
-| page | Page number |
+**key**: , The category id or name
 
-<a name="graphData"></a>
-## graphData(item)
-Return the price information for each day for 180 days
+**prefix**: , An item's prefix
 
-**Kind**: global function  
+**page**: , Page number
 
-| Param | Description |
-| --- | --- |
-| item | An item id |
+**Returns**: `Object`, Items starting with a specific prefix
 
-<a name="itemInformation"></a>
-## itemInformation(item)
+
+### graphData(item) 
+
+Gets the graph price information for each day for 180 days
+
+**Parameters**
+
+**item**: , An item id
+
+**Returns**: `Object`, Graph price information over the last 180 days
+
+
+### itemInformation(item) 
+
 Get an items current price, its price trend over 30, 90, and 180 days as well as its category and image urls.
 
-**Kind**: global function  
+**Parameters**
 
-| Param | Description |
-| --- | --- |
-| item | An item id |
+**item**: , As item id
+
+**Returns**: `Object`, Item's pricing information
+
+
+### itemId(name) 
+
+Get rscripts data for item(s) matching the name passed in
+
+**Parameters**
+
+**name**: , An item name or part of an item name
+
+**Returns**: `Array`, Array contains item objects. Can return multiple items in the array.
+
+
+
+* * *
+
+
+
+
+
+
+
+
+
 
