@@ -19,6 +19,7 @@ Gets a users hiscores and activities (available for `rs` / `osrs`)
 **Returns**: `Promise`, Object of the users hiscores and activities
 
 **Example**:
+
 ```js
 // returns Sync's RS stats and activitiesrsapi.rs.player.hiscores('sync').then(function(stats) { console.log(stats);}).catch(console.error);// returns Sausage's RS stats and activities from the ironman game typeapi.rs.hiscores.player('sausage', 'ironman').then(function(stats) {  console.log(stats)}).catch(console.error);// returns Sausage's RS stats and activities from the hardcore ironman game typeapi.rs.hiscores.player('sausage', 'hardcore').then(function(stats) {  console.log(stats)}).catch(console.error);// returns hey jase's Old School RS stats and activitiesapi.osrs.hiscores.player('hey jase').then(function(stats) {  console.log(stats)}).catch(console.error);// returns lezley's Old School RS stats and activities from the ironman game typeapi.osrs.hiscores.player('lezley', 'ironman').then(function(stats) {  console.log(stats)}).catch(console.error);// returns perm iron's Old School RS stats and activities from the ultimate ironman game typeapi.osrs.hiscores.player('perm iron', 'ultimate').then(function(stats) {  console.log(stats)}).catch(console.error);
 ```
@@ -35,6 +36,7 @@ Gets a users events log (aka adventure log) (available for `rs`)
 **Returns**: `Promise`, Object of the users events log
 
 **Example**:
+
 ```js
 // returns Sync's events / adventure logrsapi.rs.player.events('sync').then(function(stats) { console.log(stats);}).catch(console.error);
 ```

@@ -17,6 +17,7 @@ Returns an object containing the number of items in the category for each starti
 **Returns**: `Object`, Items in the category
 
 **Example**:
+
 ```js
 // returns items object for the Miscellaneous categoryrsapi.rs.ge.category('Miscellaneous').then(function(category) { console.log(category);}).catch(console.error);
 ```
@@ -37,6 +38,7 @@ Gets items in a category starting with a specific prefix (available for `rs` / `
 **Returns**: `Object`, Items starting with a specific prefix
 
 **Example**:
+
 ```js
 // returns items object for items starting with Arsapi.rs.ge.categoryPrices(0, 'a', 1).then(function(category) { console.log(category);}).catch(console.error);
 ```
@@ -53,6 +55,7 @@ Gets the graph price information for each day for 180 days (available for `rs` /
 **Returns**: `Object`, Graph price information over the last 180 days
 
 **Example**:
+
 ```js
 // returns items object for items starting with Arsapi.rs.ge.categoryPrices(0, 'a', 1).then(function(category) { console.log(category);}).catch(console.error);
 ```
@@ -69,6 +72,7 @@ Get an items current price, its price trend over 30, 90, and 180 days as well as
 **Returns**: `Object`, Item's pricing information
 
 **Example**:
+
 ```js
 api.rs.ge.graphData(4151).then(function(item) { console.log(item.daily, item.average);}).catch(console.error);
 ```
@@ -85,6 +89,7 @@ Get rscripts data for item(s) matching the name passed in (available for `rs`)
 **Returns**: `Array`, Array contains item objects. Can return multiple items in the array.
 
 **Example**:
+
 ```js
 //returns an array of all items found on the ge containing the word noxiousapi.rs.ge.itemId('noxious').then(function(item) { console.log(item.daily, item.average);}).catch(console.error);
 ```
