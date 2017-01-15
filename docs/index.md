@@ -14,9 +14,7 @@ Require `rs-api` in your node project using
 rsapi.rs.player.hiscores('sync').then(
     function (stats) {
         console.log(stats)
-}).catch(function(err) {
-    console.error;
-});
+}).catch(console.erro);
 ```
 
 ### Old School RuneScape
@@ -24,9 +22,7 @@ rsapi.rs.player.hiscores('sync').then(
 rsapi.osrs.player.hiscores('sync').then(
     function (stats) {
         console.log(stats)
-}).catch(function(err) {
-    console.error;
-});
+}).catch(console.erro);
 ```
 
 ## APIs

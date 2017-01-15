@@ -15,7 +15,7 @@ var api = require('../');
  * beastsByTerms accepts an array of terms or terms seperated by a space
  * http://services.runescape.com/m=itemdb_rs/bestiary/beastSearch.json?term=sheep+cow
  */
-api.rs.bestiary.beastsByTerms('araxxi').then(function(beasts) {
+api.rs.bestiary.beastsByTerms('cow sheep').then(function(beasts) {
     console.log(beasts);
 }).catch(console.error);
 

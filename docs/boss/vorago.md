@@ -16,6 +16,11 @@ Returns Vorago's current and upcoming rotations or Vorago's rotation on a lookup
 
 **Returns**: `Promise`, Array of rotation (includes hardmode info)
 
+**Example**:
+```js
+// lookup upcoming rotation order (presorted in order)api.rs.boss.araxxor.getRotation().then(function(rotation) { console.log(rotation);}).catch(console.error);// lookup the rotation for provided dateapi.rs.boss.araxxor.getRotation('02/03/2017').then(function(rotation) { console.log(rotation);}).catch(console.error);
+```
+
 
 
 * * *
