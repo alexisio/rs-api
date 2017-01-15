@@ -18,7 +18,7 @@ Returns araxxor's current and upcoming rotations or araxxor's rotation on a look
 
 **Example**:
 
-```javascript
+```js
 // lookup upcoming rotation order (presorted in order)
 api.rs.boss.araxxor.getRotation().then(function(rotation) {
  console.log(rotation);
