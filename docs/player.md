@@ -1,14 +1,14 @@
-# Global
+# Player
 
-
+Module containing Player functions
 
 
 
 * * *
 
-### hiscores(username, type) 
+### Player.hiscores(username, type) 
 
-Gets a users hiscores and activities | available for `rs` / `osrs`
+Gets a users hiscores and activities (available for `rs` / `osrs`)
 
 **Parameters**
 
@@ -24,9 +24,9 @@ Gets a users hiscores and activities | available for `rs` / `osrs`
 ```
 
 
-### events(username) 
+### Player.events(username) 
 
-Gets a users events log (aka adventure log) | available for `rs`
+Gets a users events log (aka adventure log) (available for `rs`)
 
 **Parameters**
 

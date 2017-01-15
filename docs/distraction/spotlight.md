@@ -1,14 +1,14 @@
-# Global
+# Spotlight
 
-
+Module containing Spotlight functions
 
 
 
 * * *
 
-### getRotation(onDate) 
+### Spotlight.getRotation(onDate) 
 
-Returns spotlight's current and upcoming rotations or the spotlight on a lookup date
+Returns spotlight's current and upcoming rotations or the spotlight on a lookup date (available for `rs`)
 
 **Parameters**
 
@@ -22,9 +22,9 @@ Returns spotlight's current and upcoming rotations or the spotlight on a lookup 
 ```
 
 
-### getMinigameNext(minigame) 
+### Spotlight.getMinigameNext(minigame) 
 
-Gets the next time the minigame will be on spotlight
+Gets the next time the minigame will be on spotlight (available for `rs`)
 
 **Parameters**
 
@@ -34,7 +34,7 @@ Gets the next time the minigame will be on spotlight
 
 **Example**:
 ```js
-var spotlight = api.rs.distraction.spotlight;spotlight.getMinigameNext(spotlight.BARBARIAN_ASSAULT).then(function(minigame) { console.log(minigame);}).catch(console.error);
+// lookup the next time Barb Assault is on spotlightvar spotlight = api.rs.distraction.spotlight;spotlight.getMinigameNext(spotlight.BARBARIAN_ASSAULT).then(function(minigame) { console.log(minigame);}).catch(console.error);
 ```
 
 

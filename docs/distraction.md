@@ -1,6 +1,6 @@
-# Minigame Spotlight module
+# Distractions module
 
-<a href="distraction/spotlight">Spotlight functions</a>
+Module containing specific distraction and minigame functions including:<a href="distraction/spotlight">Spotlight functions</a>
 
 
 

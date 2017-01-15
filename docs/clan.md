@@ -1,14 +1,14 @@
-# Global
+# Clan
 
-
+Module containing Clan functions
 
 
 
 * * *
 
-### members(name) 
+### Clan.members(name) 
 
-Get a clans member list with exp gained and total kills
+Get a clans member list with exp gained and total kills (available for `rs`)
 
 **Parameters**
 

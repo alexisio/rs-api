@@ -2,19 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="595ac42b-217a-426f-b3a8-c2b3fa9201f1" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-debug.log" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/bestiary.md" afterPath="$PROJECT_DIR$/docs/bestiary.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/boss.md" afterPath="$PROJECT_DIR$/docs/boss.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/clan.md" afterPath="$PROJECT_DIR$/docs/clan.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/distraction.md" afterPath="$PROJECT_DIR$/docs/distraction.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/grandexchange.md" afterPath="$PROJECT_DIR$/docs/grandexchange.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/index.md" afterPath="$PROJECT_DIR$/docs/index.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/player.md" afterPath="$PROJECT_DIR$/docs/player.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/bestiary.js" afterPath="$PROJECT_DIR$/examples/bestiary.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apis/bestiary.js" afterPath="$PROJECT_DIR$/lib/apis/bestiary.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apis/boss.js" afterPath="$PROJECT_DIR$/lib/apis/boss.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apis/boss/araxxor.js" afterPath="$PROJECT_DIR$/lib/apis/boss/araxxor.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apis/boss/rots.js" afterPath="$PROJECT_DIR$/lib/apis/boss/rots.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apis/boss/vorago.js" afterPath="$PROJECT_DIR$/lib/apis/boss/vorago.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apis/clan.js" afterPath="$PROJECT_DIR$/lib/apis/clan.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apis/distraction.js" afterPath="$PROJECT_DIR$/lib/apis/distraction.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apis/distraction/spotlight.js" afterPath="$PROJECT_DIR$/lib/apis/distraction/spotlight.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apis/grandexchange.js" afterPath="$PROJECT_DIR$/lib/apis/grandexchange.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apis/player.js" afterPath="$PROJECT_DIR$/lib/apis/player.js" />
@@ -40,70 +41,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="bestiary.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/apis/bestiary.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="681">
-              <caret line="162" column="53" selection-start-line="162" selection-start-column="53" selection-end-line="162" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="player.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/player.md">
-          <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="272">
-                <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="boss.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/apis/boss.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+            <state relative-caret-position="272">
+              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spotlight.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/apis/distraction/spotlight.js">
+      <file leaf-file-name="clan.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/apis/clan.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="154" column="31" selection-start-line="146" selection-start-column="5" selection-end-line="154" selection-end-column="31" />
-              <folding>
-                <element signature="e#102#816#0" expanded="false" />
-                <element signature="e#843#1272#0" expanded="false" />
-                <element signature="e#2589#3579#0" expanded="false" />
-                <element signature="e#4283#5256#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="357">
+              <caret line="30" column="63" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="araxxor.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="player.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/apis/player.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="54" column="71" selection-start-line="54" selection-start-column="71" selection-end-line="54" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bestiary.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/apis/bestiary.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="162" column="87" selection-start-line="162" selection-start-column="87" selection-end-line="162" selection-end-column="87" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="araxxor.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/apis/boss/araxxor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="17" selection-end-column="31" />
+            <state relative-caret-position="170">
+              <caret line="10" column="115" selection-start-line="10" selection-start-column="115" selection-end-line="10" selection-end-column="115" />
               <folding>
-                <element signature="e#743#3806#0" expanded="false" />
+                <element signature="e#830#3893#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -112,41 +96,61 @@
       <file leaf-file-name="rots.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/apis/boss/rots.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-288">
-              <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+            <state relative-caret-position="289">
+              <caret line="41" column="109" selection-start-line="41" selection-start-column="109" selection-end-line="41" selection-end-column="109" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vorago.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="vorago.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/apis/boss/vorago.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="76" column="31" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
+            <state relative-caret-position="-441">
+              <caret line="69" column="113" selection-start-line="69" selection-start-column="113" selection-end-line="69" selection-end-column="113" />
               <folding>
-                <element signature="e#90#1459#0" expanded="false" />
+                <element signature="e#154#1523#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spotlight.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/apis/distraction/spotlight.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="147" column="112" selection-start-line="147" selection-start-column="112" selection-end-line="147" selection-end-column="112" />
+              <folding>
+                <element signature="e#172#886#0" expanded="false" />
+                <element signature="e#913#1342#0" expanded="false" />
+                <element signature="e#2659#3649#0" expanded="false" />
+                <element signature="e#4374#5347#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="distraction.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/distraction.js">
+        <entry file="file://$PROJECT_DIR$/lib/apis/distraction.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="118" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="118" />
+            <state relative-caret-position="204">
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bestiary.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/bestiary.js">
+      <file leaf-file-name="grandexchange.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/apis/grandexchange.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="83" column="24" selection-start-line="81" selection-start-column="2" selection-end-line="83" selection-end-column="24" />
-              <folding />
+            <state relative-caret-position="137">
+              <caret line="108" column="85" selection-start-line="108" selection-start-column="65" selection-end-line="108" selection-end-column="85" />
+              <folding>
+                <element signature="e#306#838#0" expanded="false" />
+                <element signature="e#2226#2589#0" expanded="false" />
+                <element signature="e#3060#3225#0" expanded="false" />
+                <element signature="e#3665#3826#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -194,19 +198,20 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/docs/api.md" />
         <option value="$PROJECT_DIR$/docs.js" />
-        <option value="$PROJECT_DIR$/lib/apis/boss.js" />
-        <option value="$PROJECT_DIR$/lib/apis/distraction.js" />
         <option value="$PROJECT_DIR$/docs/index.md" />
         <option value="$PROJECT_DIR$/examples/grandexchange.js" />
+        <option value="$PROJECT_DIR$/examples/bestiary.js" />
+        <option value="$PROJECT_DIR$/docs/clan.md" />
+        <option value="$PROJECT_DIR$/lib/apis/boss.js" />
+        <option value="$PROJECT_DIR$/lib/apis/distraction.js" />
+        <option value="$PROJECT_DIR$/lib/apis/player.js" />
         <option value="$PROJECT_DIR$/lib/apis/grandexchange.js" />
         <option value="$PROJECT_DIR$/lib/apis/clan.js" />
-        <option value="$PROJECT_DIR$/lib/apis/player.js" />
-        <option value="$PROJECT_DIR$/examples/bestiary.js" />
         <option value="$PROJECT_DIR$/lib/apis/bestiary.js" />
         <option value="$PROJECT_DIR$/lib/apis/distraction/spotlight.js" />
-        <option value="$PROJECT_DIR$/lib/apis/boss/araxxor.js" />
-        <option value="$PROJECT_DIR$/lib/apis/boss/rots.js" />
         <option value="$PROJECT_DIR$/lib/apis/boss/vorago.js" />
+        <option value="$PROJECT_DIR$/lib/apis/boss/rots.js" />
+        <option value="$PROJECT_DIR$/lib/apis/boss/araxxor.js" />
       </list>
     </option>
   </component>
@@ -300,47 +305,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="configs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rs-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rs-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="apis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rs-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rs-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="player" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -385,20 +350,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="boss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rs-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rs-api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -510,12 +461,12 @@
       <option name="presentableId" value="Default" />
       <updated>1484234662572</updated>
       <workItem from="1484234664112" duration="23487000" />
-      <workItem from="1484432607700" duration="11818000" />
+      <workItem from="1484432607700" duration="13214000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35305000" />
+    <option name="totallyTimeSpent" value="36701000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2552" y="-8" width="1936" height="1056" extended-state="6" />
@@ -748,26 +699,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/clan.md">
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -809,26 +740,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/boss/araxxor.md">
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/boss.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1000,48 +911,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/apis/distraction.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/apis/player.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="34" column="86" selection-start-line="34" selection-start-column="86" selection-end-line="34" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/apis/clan.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/player.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
           <caret line="50" column="37" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="37" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/apis/grandexchange.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="89" column="145" selection-start-line="89" selection-start-column="115" selection-end-line="89" selection-end-column="145" />
-          <folding>
-            <element signature="e#226#758#0" expanded="false" />
-            <element signature="e#2146#2509#0" expanded="false" />
-            <element signature="e#2980#3145#0" expanded="false" />
-            <element signature="e#3585#3746#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1051,13 +925,13 @@
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding>
-              <marker date="1484469667670" expanded="true" signature="437:461" ph="{...}" />
-              <marker date="1484469667670" expanded="true" signature="624:648" ph="{...}" />
-              <marker date="1484469667670" expanded="true" signature="821:845" ph="{...}" />
-              <marker date="1484469667670" expanded="true" signature="985:1009" ph="{...}" />
-              <marker date="1484469667670" expanded="true" signature="1183:1207" ph="{...}" />
-              <marker date="1484469667670" expanded="true" signature="1397:1421" ph="{...}" />
-              <marker date="1484469667670" expanded="true" signature="1774:1798" ph="{...}" />
+              <marker date="1484474010230" expanded="true" signature="437:461" ph="{...}" />
+              <marker date="1484474010230" expanded="true" signature="624:648" ph="{...}" />
+              <marker date="1484474010230" expanded="true" signature="821:845" ph="{...}" />
+              <marker date="1484474010230" expanded="true" signature="985:1009" ph="{...}" />
+              <marker date="1484474010230" expanded="true" signature="1183:1207" ph="{...}" />
+              <marker date="1484474010230" expanded="true" signature="1397:1421" ph="{...}" />
+              <marker date="1484474010230" expanded="true" signature="1822:1846" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />
@@ -1068,24 +942,16 @@
           <first_editor relative-caret-position="272">
             <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
             <folding>
-              <marker date="1484469667670" expanded="true" signature="437:461" ph="{...}" />
-              <marker date="1484469667670" expanded="true" signature="624:648" ph="{...}" />
-              <marker date="1484469667670" expanded="true" signature="821:845" ph="{...}" />
-              <marker date="1484469667670" expanded="true" signature="985:1009" ph="{...}" />
-              <marker date="1484469667670" expanded="true" signature="1183:1207" ph="{...}" />
-              <marker date="1484469667670" expanded="true" signature="1397:1421" ph="{...}" />
-              <marker date="1484469667670" expanded="true" signature="1774:1798" ph="{...}" />
+              <marker date="1484474010230" expanded="true" signature="437:461" ph="{...}" />
+              <marker date="1484474010230" expanded="true" signature="624:648" ph="{...}" />
+              <marker date="1484474010230" expanded="true" signature="821:845" ph="{...}" />
+              <marker date="1484474010230" expanded="true" signature="985:1009" ph="{...}" />
+              <marker date="1484474010230" expanded="true" signature="1183:1207" ph="{...}" />
+              <marker date="1484474010230" expanded="true" signature="1397:1421" ph="{...}" />
+              <marker date="1484474010230" expanded="true" signature="1822:1846" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/apis/boss.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1105,51 +971,140 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docs/clan.md">
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding>
+              <marker date="1484474010131" expanded="true" signature="295:319" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="306">
+            <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <folding>
+              <marker date="1484474010131" expanded="true" signature="295:319" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/boss.md">
+      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/apis/player.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="54" column="71" selection-start-line="54" selection-start-column="71" selection-end-line="54" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/apis/grandexchange.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="108" column="85" selection-start-line="108" selection-start-column="65" selection-end-line="108" selection-end-column="85" />
+          <folding>
+            <element signature="e#306#838#0" expanded="false" />
+            <element signature="e#2226#2589#0" expanded="false" />
+            <element signature="e#3060#3225#0" expanded="false" />
+            <element signature="e#3665#3826#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/apis/distraction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/apis/clan.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="30" column="63" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/apis/boss.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/apis/bestiary.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="681">
-          <caret line="162" column="53" selection-start-line="162" selection-start-column="53" selection-end-line="162" selection-end-column="53" />
+        <state relative-caret-position="171">
+          <caret line="162" column="87" selection-start-line="162" selection-start-column="87" selection-end-line="162" selection-end-column="87" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/apis/distraction/spotlight.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="154" column="31" selection-start-line="146" selection-start-column="5" selection-end-line="154" selection-end-column="31" />
+        <state relative-caret-position="544">
+          <caret line="147" column="112" selection-start-line="147" selection-start-column="112" selection-end-line="147" selection-end-column="112" />
           <folding>
-            <element signature="e#102#816#0" expanded="false" />
-            <element signature="e#843#1272#0" expanded="false" />
-            <element signature="e#2589#3579#0" expanded="false" />
-            <element signature="e#4283#5256#0" expanded="false" />
+            <element signature="e#172#886#0" expanded="false" />
+            <element signature="e#913#1342#0" expanded="false" />
+            <element signature="e#2659#3649#0" expanded="false" />
+            <element signature="e#4374#5347#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/apis/boss/araxxor.js">
+    <entry file="file://$PROJECT_DIR$/lib/apis/boss/vorago.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="17" selection-end-column="31" />
+        <state relative-caret-position="-441">
+          <caret line="69" column="113" selection-start-line="69" selection-start-column="113" selection-end-line="69" selection-end-column="113" />
           <folding>
-            <element signature="e#743#3806#0" expanded="false" />
+            <element signature="e#154#1523#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/apis/boss/rots.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-288">
-          <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+        <state relative-caret-position="289">
+          <caret line="41" column="109" selection-start-line="41" selection-start-column="109" selection-end-line="41" selection-end-column="109" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/apis/boss/vorago.js">
+    <entry file="file://$PROJECT_DIR$/lib/apis/boss/araxxor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="76" column="31" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
+        <state relative-caret-position="170">
+          <caret line="10" column="115" selection-start-line="10" selection-start-column="115" selection-end-line="10" selection-end-column="115" />
           <folding>
-            <element signature="e#90#1459#0" expanded="false" />
+            <element signature="e#830#3893#0" expanded="false" />
           </folding>
         </state>
       </provider>

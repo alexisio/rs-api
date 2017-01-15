@@ -1,14 +1,14 @@
-# Global
+# RoTS
 
-
+Module containing RoTS functions
 
 
 
 * * *
 
-### getRotation(onDate) 
+### RoTS.getRotation(onDate) 
 
-Returns RoTS's current and upcoming rotations or RoTS's rotation on a lookup date
+Returns RoTS's current and upcoming rotations or RoTS's rotation on a lookup date (available for `rs`)
 
 **Parameters**
 

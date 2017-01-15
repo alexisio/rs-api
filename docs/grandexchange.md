@@ -1,14 +1,14 @@
-# Global
+# Grand Exchange
 
-
+Module containing Grand Exchange functions
 
 
 
 * * *
 
-### category(key) 
+### Grand Exchange.category(key) 
 
-Returns an object containing the number of items in the category for each starting letter | available for `rs` / `osrs`
+Returns an object containing the number of items in the category for each starting letter (available for `rs` / `osrs`)
 
 **Parameters**
 
@@ -22,9 +22,9 @@ Returns an object containing the number of items in the category for each starti
 ```
 
 
-### categoryPrices(key, prefix, page) 
+### Grand Exchange.categoryPrices(key, prefix, page) 
 
-Gets items in a category starting with a specific prefix | available for `rs` / `osrs`
+Gets items in a category starting with a specific prefix (available for `rs` / `osrs`)
 
 **Parameters**
 
@@ -42,9 +42,9 @@ Gets items in a category starting with a specific prefix | available for `rs` / 
 ```
 
 
-### graphData(item) 
+### Grand Exchange.graphData(item) 
 
-Gets the graph price information for each day for 180 days | available for `rs` / `osrs`
+Gets the graph price information for each day for 180 days (available for `rs` / `osrs`)
 
 **Parameters**
 
@@ -58,9 +58,9 @@ Gets the graph price information for each day for 180 days | available for `rs` 
 ```
 
 
-### itemInformation(item) 
+### Grand Exchange.itemInformation(item) 
 
-Get an items current price, its price trend over 30, 90, and 180 days as well as its category and image urls | available for `rs` / `osrs`
+Get an items current price, its price trend over 30, 90, and 180 days as well as its category and image urls (available for `rs` / `osrs`)
 
 **Parameters**
 
@@ -74,9 +74,9 @@ api.rs.ge.graphData(4151).then(function(item) { console.log(item.daily, item.av
 ```
 
 
-### itemId(name) 
+### Grand Exchange.itemId(name) 
 
-Get rscripts data for item(s) matching the name passed in | available for `rs`
+Get rscripts data for item(s) matching the name passed in (available for `rs`)
 
 **Parameters**
 

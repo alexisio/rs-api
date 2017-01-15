@@ -1,14 +1,14 @@
-# Global
+# Vorago
 
-
+Module containing Vorago functions
 
 
 
 * * *
 
-### getRotation(onDate) 
+### Vorago.getRotation(onDate) 
 
-Returns Vorago's current and upcoming rotations or Vorago's rotation on a lookup date
+Returns Vorago's current and upcoming rotations or Vorago's rotation on a lookup date (available for `rs`)
 
 **Parameters**
 

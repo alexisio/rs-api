@@ -1,14 +1,14 @@
-# Global
+# Bestiary
 
-
+Module containing Bestiary functions
 
 
 
 * * *
 
-### beast(id) 
+### Bestiary.beast(id) 
 
-Gets a beasts information by id | available for `rs`
+Gets a beasts information by id (available for `rs`)
 
 **Parameters**
 
@@ -22,9 +22,9 @@ Gets a beasts information by id | available for `rs`
 ```
 
 
-### beastsByTerms(terms) 
+### Bestiary.beastsByTerms(terms) 
 
-Gets a list of beasts whose name contains specific terms
+Gets a list of beasts whose name contains specific terms (available for `rs`)
 
 **Parameters**
 
@@ -38,9 +38,9 @@ Gets a list of beasts whose name contains specific terms
 ```
 
 
-### beastsByFirstLetter(letter) 
+### Bestiary.beastsByFirstLetter(letter) 
 
-Gets a list of beasts that start with a specific letter
+Gets a list of beasts that start with a specific letter (available for `rs`)
 
 **Parameters**
 
@@ -54,9 +54,9 @@ Gets a list of beasts that start with a specific letter
 ```
 
 
-### areas() 
+### Bestiary.areas() 
 
-Gets a list of all possible area names
+Gets a list of all possible area names (available for `rs`)
 
 **Returns**: `Object`, List of area names
 
@@ -66,9 +66,9 @@ Gets a list of all possible area names
 ```
 
 
-### beastsByArea(area) 
+### Bestiary.beastsByArea(area) 
 
-Gets a list of beasts by an area name
+Gets a list of beasts by an area name (available for `rs`)
 
 **Parameters**
 
@@ -82,9 +82,9 @@ Gets a list of beasts by an area name
 ```
 
 
-### slayerCategories() 
+### Bestiary.slayerCategories() 
 
-Gets a list of all possible slayer categories
+Gets a list of all possible slayer categories (available for `rs`)
 
 **Returns**: `Object`, Slayer categories
 
@@ -94,9 +94,9 @@ Gets a list of all possible slayer categories
 ```
 
 
-### beastsBySlayer(slayerId) 
+### Bestiary.beastsBySlayer(slayerId) 
 
-Gets a list of beasts by a specific slayer category id
+Gets a list of beasts by a specific slayer category id (available for `rs`)
 
 **Parameters**
 
@@ -110,9 +110,9 @@ Gets a list of beasts by a specific slayer category id
 ```
 
 
-### weaknesses() 
+### Bestiary.weaknesses() 
 
-Gets a list of all possible weaknesses
+Gets a list of all possible weaknesses (available for `rs`)
 
 **Returns**: `Object`, List of possible weaknesses
 
@@ -122,9 +122,9 @@ Gets a list of all possible weaknesses
 ```
 
 
-### beastsByWeakness(weeknessId) 
+### Bestiary.beastsByWeakness(weeknessId) 
 
-Gets a list of beasts by a specific weekeness id
+Gets a list of beasts by a specific weekeness id (available for `rs`)
 
 **Parameters**
 
@@ -138,9 +138,9 @@ Gets a list of beasts by a specific weekeness id
 ```
 
 
-### beastsByLevelRange(min, max) 
+### Bestiary.beastsByLevelRange(min, max) 
 
-Gets a list of beasts by the specified level range(200-300)
+Gets a list of beasts by the specified level range(200-300) (available for `rs`)
 
 **Parameters**
 
