@@ -17,6 +17,7 @@ Returns araxxor's current and upcoming rotations or araxxor's rotation on a look
 **Returns**: `Promise`, Array of rotation
 
 **Example**:
+
 ```javascript
 // lookup upcoming rotation order (presorted in order)
 api.rs.boss.araxxor.getRotation().then(function(rotation) {
