@@ -12,9 +12,9 @@ Gets a users hiscores and activities `rs` / `osrs`
 
 **Parameters**
 
-**username**: , Display name of the user
+**username**: `String`, Display name of the user
 
-**type**: , [Optional] normal, ironman, hardcore/ultimate
+**type**: `String`, [Optional] normal, ironman, hardcore/ultimate
 
 
 
@@ -24,7 +24,7 @@ Gets a users events log (aka adventure log)
 
 **Parameters**
 
-**username**: , Display name of the user
+**username**: `String`, Display name of the user
 
 
 

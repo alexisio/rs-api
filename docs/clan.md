@@ -6,10 +6,7 @@
 
 * * *
 
-## Class: Clan
-Clan constructor
-
-### Clan.members(name) 
+### members(name) 
 
 Get a clans member list with exp gained and total kills
 

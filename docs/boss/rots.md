@@ -12,7 +12,7 @@ Returns RoTS's current and upcoming rotations or RoTS's rotation on a lookup dat
 
 **Parameters**
 
-**onDate**: , Set date to lookup
+**onDate**: `Date`, [Optional] Set date to lookup
 
 **Returns**: `Promise`, Array of rotation
 

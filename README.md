@@ -14,7 +14,7 @@ NOTE: This is a fork of `runescape-api`, which can be found [here][runescape-api
 
 ## Usage
 
-Coming soon...
+Usage can be found on the docs page [here][docs]
 
 ## License
 `runescape-api` is under the [MIT][mit] license, see the `LICENSE` file for the copyright information and licensing terms.
@@ -23,3 +23,4 @@ Coming soon...
 [runescape]: http://www.runescape.com
 [runescape-api]: https://github.com/Joshua-F/runescape-api
 [mit]: http://opensource.org/licenses/MIT
+[docs]: https://alexisio.github.io/rs-api/

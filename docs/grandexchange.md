@@ -12,7 +12,7 @@ Returns an object containing the number of items in the category for each starti
 
 **Parameters**
 
-**key**: , The category id or name
+**key**: `String | Number`, The category id or name
 
 **Returns**: `Object`, Items in the category
 
@@ -23,11 +23,11 @@ Gets items in a category starting with a specific prefix
 
 **Parameters**
 
-**key**: , The category id or name
+**key**: `String | Number`, The category id or name
 
-**prefix**: , An item's prefix
+**prefix**: `String`, An item's prefix
 
-**page**: , Page number
+**page**: `Number`, Page number
 
 **Returns**: `Object`, Items starting with a specific prefix
 
@@ -38,7 +38,7 @@ Gets the graph price information for each day for 180 days
 
 **Parameters**
 
-**item**: , An item id
+**item**: `Number`, An item id
 
 **Returns**: `Object`, Graph price information over the last 180 days
 
@@ -60,7 +60,7 @@ Get rscripts data for item(s) matching the name passed in
 
 **Parameters**
 
-**name**: , An item name or part of an item name
+**name**: `String`, An item name or part of an item name
 
 **Returns**: `Array`, Array contains item objects. Can return multiple items in the array.
 

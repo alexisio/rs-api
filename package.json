@@ -16,6 +16,7 @@
     "url": "https://github.com/alexisio/rs-api/issues"
   },
   "dependencies": {
+    "jsdox": "^0.4.10",
     "promise": "^7.0.1",
     "request": "^2.56.0",
     "rss-to-json": "^1.0.2"

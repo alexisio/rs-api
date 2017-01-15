@@ -6,99 +6,104 @@
 
 * * *
 
-## Class: Bestiary
-Bestiary constructor
-
-**beastsByTerm**:  , Alias of beastByTerms
-### Bestiary.beast(id) 
+### beast(id) 
 
 Gets a beasts information by id
 
 **Parameters**
 
-**id**: , The beasts id
+**id**: `Number`, The beasts id
 
-**Returns**: `Object`
+**Returns**: `Object`, Beast information
 
-### Bestiary.beastsByTerms(terms) 
 
-Gets a list of beasts whoes name contains specific terms
+### beastsByTerms(terms) 
+
+Gets a list of beasts whose name contains specific terms
 
 **Parameters**
 
-**terms**: , String seperating terms with spaces or an array of terms
+**terms**: `String`, seperating terms with spaces or an array of terms
 
-**Returns**: `Object`
+**Returns**: `Object`, List of beasts
 
-### Bestiary.beastsByFirstLetter(letter) 
+
+### beastsByFirstLetter(letter) 
 
 Gets a list of beasts that start with a specific letter
 
 **Parameters**
 
-**letter**: , The letter to search for
+**letter**: `String`, The letter to search for
 
-**Returns**: `Object`
+**Returns**: `Object`, List of beasts that start with a specific letter
 
-### Bestiary.areas() 
+
+### areas() 
 
 Gets a list of all possible area names
 
-**Returns**: `Object`
+**Returns**: `Object`, List of area names
 
-### Bestiary.beastsByArea(area) 
+
+### beastsByArea(area) 
 
 Gets a list of beasts by an area name
 
 **Parameters**
 
-**area**: , The area name to search for
+**area**: `String`, The area name to search for
 
-**Returns**: `Object`
+**Returns**: `Object`, Beasts located in a specific area
 
-### Bestiary.slayerCategories() 
+
+### slayerCategories() 
 
 Gets a list of all possible slayer categories
 
-**Returns**: `Object`
+**Returns**: `Object`, Slayer categories
 
-### Bestiary.beastsBySlayer(slayerId) 
+
+### beastsBySlayer(slayerId) 
 
 Gets a list of beasts by a specific slayer category id
 
 **Parameters**
 
-**slayerId**: , A slayer category id
+**slayerId**: `Number`, A slayer category id
 
-**Returns**: `Object`
+**Returns**: `Object`, List of beats in a slayer category
 
-### Bestiary.weaknesses() 
+
+### weaknesses() 
 
 Gets a list of all possible weaknesses
 
-**Returns**: `Object`
+**Returns**: `Object`, List of possible weaknesses
 
-### Bestiary.beastsByWeakness(weeknessId) 
+
+### beastsByWeakness(weeknessId) 
 
 Gets a list of beasts by a specific weekeness id
 
 **Parameters**
 
-**weeknessId**: , A weekeness id
+**weeknessId**: `Number`, A weekeness id
 
-**Returns**: `Object`
+**Returns**: `Object`, List of beasts weak to specific weakness
 
-### Bestiary.beastsByLevelRange(min, max) 
+
+### beastsByLevelRange(min, max) 
 
 Gets a list of beasts by the specified level range(200-300)
 
 **Parameters**
 
-**min**: , The minimum level to lookup
+**min**: `Number`, The minimum level to lookup
 
-**max**: , The maximum level to lookup
+**max**: `Number`, The maximum level to lookup
 
-**Returns**: `Object`
+**Returns**: `Object`, List of beasts in a specific level range
 
 
 

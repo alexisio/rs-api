@@ -1,0 +1,80 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'version',
+1 verbose cli   'patch',
+1 verbose cli   '-m',
+1 verbose cli   'Documentation' ]
+2 info using npm@3.10.3
+3 info using node@v6.5.0
+4 info git [ 'status', '--porcelain' ]
+5 verbose stack Error: Git working directory not clean.
+5 verbose stack MM .idea/workspace.xml
+5 verbose stack M  README.md
+5 verbose stack M  docs/bestiary.md
+5 verbose stack M  docs/boss.md
+5 verbose stack M  docs/boss/araxxor.md
+5 verbose stack M  docs/boss/rots.md
+5 verbose stack M  docs/boss/vorago.md
+5 verbose stack M  docs/clan.md
+5 verbose stack M  docs/distraction.md
+5 verbose stack M  docs/distraction/spotlight.md
+5 verbose stack M  docs/grandexchange.md
+5 verbose stack M  docs/player.md
+5 verbose stack A  gen-doc.js
+5 verbose stack M  lib/api.js
+5 verbose stack M  lib/apis/bestiary.js
+5 verbose stack M  lib/apis/boss.js
+5 verbose stack M  lib/apis/boss/araxxor.js
+5 verbose stack M  lib/apis/boss/rots.js
+5 verbose stack M  lib/apis/boss/vorago.js
+5 verbose stack M  lib/apis/clan.js
+5 verbose stack M  lib/apis/distraction.js
+5 verbose stack M  lib/apis/distraction/spotlight.js
+5 verbose stack M  lib/apis/grandexchange.js
+5 verbose stack M  lib/apis/player.js
+5 verbose stack M  package.json
+5 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\version.js:247:19
+5 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\utils\no-progress-while-running.js:21:8
+5 verbose stack     at ChildProcess.exithandler (child_process.js:197:7)
+5 verbose stack     at emitTwo (events.js:106:13)
+5 verbose stack     at ChildProcess.emit (events.js:191:7)
+5 verbose stack     at maybeClose (internal/child_process.js:877:16)
+5 verbose stack     at Socket.<anonymous> (internal/child_process.js:334:11)
+5 verbose stack     at emitOne (events.js:96:13)
+5 verbose stack     at Socket.emit (events.js:188:7)
+5 verbose stack     at Pipe._handle.close [as _onclose] (net.js:493:12)
+6 verbose cwd C:\Users\Alex\Documents\Projects\GitHub\rs-api
+7 error Windows_NT 10.0.14393
+8 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "version" "patch" "-m" "Documentation"
+9 error node v6.5.0
+10 error npm  v3.10.3
+11 error Git working directory not clean.
+11 error MM .idea/workspace.xml
+11 error M  README.md
+11 error M  docs/bestiary.md
+11 error M  docs/boss.md
+11 error M  docs/boss/araxxor.md
+11 error M  docs/boss/rots.md
+11 error M  docs/boss/vorago.md
+11 error M  docs/clan.md
+11 error M  docs/distraction.md
+11 error M  docs/distraction/spotlight.md
+11 error M  docs/grandexchange.md
+11 error M  docs/player.md
+11 error A  gen-doc.js
+11 error M  lib/api.js
+11 error M  lib/apis/bestiary.js
+11 error M  lib/apis/boss.js
+11 error M  lib/apis/boss/araxxor.js
+11 error M  lib/apis/boss/rots.js
+11 error M  lib/apis/boss/vorago.js
+11 error M  lib/apis/clan.js
+11 error M  lib/apis/distraction.js
+11 error M  lib/apis/distraction/spotlight.js
+11 error M  lib/apis/grandexchange.js
+11 error M  lib/apis/player.js
+11 error M  package.json
+12 error If you need help, you may report this error at:
+12 error     <https://github.com/npm/npm/issues>
+13 verbose exit [ 1, true ]

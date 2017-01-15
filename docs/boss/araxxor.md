@@ -12,7 +12,7 @@ Returns araxxor's current and upcoming rotations or araxxor's rotation on a look
 
 **Parameters**
 
-**onDate**: , Set date to lookup (MM/dd/YYYY)
+**onDate**: `Date`, [Optional] Set date to lookup (MM/dd/YYYY)
 
 **Returns**: `Promise`, Array of rotation
 
