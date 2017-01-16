@@ -17,7 +17,6 @@
   },
   "dependencies": {
     "jsdox": "^0.4.10",
-    "node-jsonp": "^1.0.2",
     "promise": "^7.0.1",
     "request": "^2.56.0",
     "rss-to-json": "^1.0.2"
