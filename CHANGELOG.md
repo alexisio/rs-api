@@ -1,4 +1,4 @@
-[2.0.3] - 2017-01-15
+2.0.3 - 2017-01-15
 =======================
 ### Added
 * Player Details lookup to the Player API
@@ -6,18 +6,18 @@
 ### Fixed
 * Issue with Grand Exchange test
 
-[2.0.2] - 2017-01-14
+2.0.2 - 2017-01-14
 =======================
 ### Added
 * GitHub Pages Documentation
 * Better JSDoc comments with examples
 
-[2.0.1] - 2017-01-13
+2.0.1 - 2017-01-13
 =======================
 ### Fixed
 * Fixed some issues with calculating rotations in the boss and distractions apis
 
-[2.0.0] - 2017-01-12
+2.0.0 - 2017-01-12
 =======================
 
 ### Breaking Changes
@@ -97,7 +97,6 @@
 
 First release
 
-[2.0.0]: https://github.com/alexisio/rs-api/compare/1.0.9...2.0.0
 [1.0.9]: https://github.com/Joshua-F/runescape-api/compare/1.0.8...1.0.9
 [1.0.8]: https://github.com/Joshua-F/runescape-api/compare/1.0.7...1.0.8
 [1.0.7]: https://github.com/Joshua-F/runescape-api/compare/1.0.6...1.0.7
