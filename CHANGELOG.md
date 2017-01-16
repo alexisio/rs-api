@@ -1,3 +1,8 @@
+2.0.4 - 2017-01-15
+=======================
+### Fixed
+* Issue with jsonp library causing tests to fail
+
 2.0.3 - 2017-01-15
 =======================
 ### Added
