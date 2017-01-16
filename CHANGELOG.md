@@ -1,3 +1,22 @@
+[2.0.3] - 2017-01-15
+=======================
+### Added
+* Player Details lookup to the Player API
+
+### Fixed
+* Issue with Grand Exchange test
+
+[2.0.2] - 2017-01-14
+=======================
+### Added
+* GitHub Pages Documentation
+* Better JSDoc comments with examples
+
+[2.0.1] - 2017-01-13
+=======================
+### Fixed
+* Fixed some issues with calculating rotations in the boss and distractions apis
+
 [2.0.0] - 2017-01-12
 =======================
 

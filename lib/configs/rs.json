@@ -1,5 +1,8 @@
 {
   "player": {
+    "urls": {
+      "playerDetails": "http://services.runescape.com/m=website-data/playerDetails.ws?names="
+    },
     "hiscores": {
       "urls": {
         "normal": "http://services.runescape.com/m=hiscore/index_lite.ws?player=",

@@ -42,6 +42,23 @@ Gets a users events log (aka adventure log) (available for `rs`)
 ```
 
 
+### Player.details(usernames) 
+
+Returns the input user(s) clan, title, if the clan is recruiting, and if the title is a suffix
+
+**Parameters**
+
+**usernames**: `string | array`, String of a single username or array of multiple to lookup
+
+**Returns**: `Promise`, Object of the users player details
+
+**Example**:
+
+```js
+rsapi.rs.player.details(['sync','xredfoxx']).then(function(details) { console.log(details);}).catch(console.error);
+```
+
+
 
 * * *
 

@@ -26,4 +26,13 @@ describe('Player', function() {
             });
         });
     });
+
+    describe('#details', function() {
+        it('should return player details for sync', function(done) {
+            return api.rs.player.details(['sync']).then(function(details) {
+                expect(details[0].name).to.equal('sync');
+                done();
+            });
+        });
+    });
 });
