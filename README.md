@@ -17,7 +17,7 @@ NOTE: This is a fork of `runescape-api`, which can be found [here][runescape-api
 Usage can be found on the docs page [here][docs]
 
 ## License
-`runescape-api` is under the [MIT][mit] license, see the `LICENSE` file for the copyright information and licensing terms.
+`rs-api` is under the [MIT][mit] license, see the `LICENSE` file for the copyright information and licensing terms.
 
 [nodejs]: https://nodejs.org
 [runescape]: http://www.runescape.com
