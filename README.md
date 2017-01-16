@@ -12,6 +12,8 @@ NOTE: This is a fork of `runescape-api`, which can be found [here][runescape-api
 
 `npm install rs-api --save`
 
+NOTE: This package is only tested against Node.js v6+.
+
 ## Usage
 
 Usage can be found on the docs page [here][docs]

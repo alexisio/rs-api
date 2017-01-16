@@ -1,3 +1,11 @@
+2.0.5 - 2017-01-16
+=======================
+### Added
+* Skilling module which houses:
+  * Voice of Seren lookup
+  * Portables Lookup
+* Warbands and Viswax lookup to Distraction module
+
 2.0.4 - 2017-01-15
 =======================
 ### Fixed

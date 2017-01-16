@@ -17,10 +17,13 @@
   },
   "dependencies": {
     "feedme": "^0.3.3",
+    "google-spreadsheet": "^2.0.3",
     "jsdox": "^0.4.10",
     "promise": "^7.0.1",
     "request": "^2.56.0",
-    "rss-to-json": "^1.0.2"
+    "rss-to-json": "^1.0.2",
+    "scrape-it": "^3.2.2",
+    "twitter": "^1.7.0"
   },
   "devDependencies": {
     "chai": "^3.0.0",
