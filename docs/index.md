@@ -64,4 +64,10 @@ rsapi.osrs.player.hiscores('sync').then(
     <dd>
         Functions to look up information on distractions and minigames, such as spotlight rotations
     </dd>
+    <dt>
+        <a href="skilling">Skilling</a>
+    </dt>
+    <dd>
+        Functions to look up information on skilling, such as current voice of seren and portables
+    </dd>
 </dl>
