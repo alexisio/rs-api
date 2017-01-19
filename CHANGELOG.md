@@ -1,3 +1,8 @@
+2.0.7 - 2017-01-19
+=======================
+### Added
+* Username to Events result for consistency #1 
+
 2.0.6 - 2017-01-19
 =======================
 ### Fixed
