@@ -1,7 +1,12 @@
+2.0.8 - 2017-01-19
+=======================
+### Fixed
+* Events log not being populated [#2](/alexisio/rs-api/issues/2)
+
 2.0.7 - 2017-01-19
 =======================
 ### Added
-* Username to Events result for consistency #1 
+* Username to Events result for consistency [#1](/alexisio/rs-api/issues/1) 
 
 2.0.6 - 2017-01-19
 =======================
