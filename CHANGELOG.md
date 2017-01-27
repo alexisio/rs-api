@@ -1,3 +1,8 @@
+2.0.12 - 2017-01-26
+=======================
+### Fixed
+* Removed the Header from returning in the member list for a clan
+
 2.0.11 - 2017-01-26
 =======================
 ### Added

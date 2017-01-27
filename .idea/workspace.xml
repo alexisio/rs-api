@@ -5,9 +5,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CHANGELOG.md" afterPath="$PROJECT_DIR$/CHANGELOG.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/debug/index.js" afterPath="$PROJECT_DIR$/debug/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apis/distraction/viswax.js" afterPath="$PROJECT_DIR$/lib/apis/distraction/viswax.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/util/request.js" afterPath="$PROJECT_DIR$/lib/util/request.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/util/rss.js" afterPath="$PROJECT_DIR$/lib/util/rss.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/apis/clan.js" afterPath="$PROJECT_DIR$/lib/apis/clan.js" />
     </list>
     <ignored path="rs-api.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,8 +31,8 @@
       <file leaf-file-name="request.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/util/request.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+            <state relative-caret-position="493">
+              <caret line="34" column="23" selection-start-line="31" selection-start-column="16" selection-end-line="34" selection-end-column="23" />
               <folding>
                 <element signature="e#245#539#0" expanded="false" />
                 <element signature="e#2487#2850#0" expanded="false" />
@@ -50,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/debug/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -89,8 +87,8 @@
       <file leaf-file-name="clan.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/apis/clan.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="16" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="16" />
+            <state relative-caret-position="162">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -140,7 +138,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="0">
-                <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+                <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -181,7 +179,6 @@
         <option value="$PROJECT_DIR$/node_modules/jsdox/templates/function.mustache" />
         <option value="$PROJECT_DIR$/docs/templates/function.mustache" />
         <option value="$PROJECT_DIR$/lib/apis/grandexchange.js" />
-        <option value="$PROJECT_DIR$/lib/apis/clan.js" />
         <option value="$PROJECT_DIR$/lib/apis/bestiary.js" />
         <option value="$PROJECT_DIR$/lib/apis/distraction/spotlight.js" />
         <option value="$PROJECT_DIR$/lib/apis/boss/rots.js" />
@@ -209,10 +206,11 @@
         <option value="$PROJECT_DIR$/docs/index.md" />
         <option value="$PROJECT_DIR$/lib/apis/player/events.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/debug/index.js" />
         <option value="$PROJECT_DIR$/lib/apis/distraction/viswax.js" />
         <option value="$PROJECT_DIR$/lib/util/request.js" />
         <option value="$PROJECT_DIR$/lib/util/rss.js" />
+        <option value="$PROJECT_DIR$/debug/index.js" />
+        <option value="$PROJECT_DIR$/lib/apis/clan.js" />
         <option value="$PROJECT_DIR$/CHANGELOG.md" />
       </list>
     </option>
@@ -495,12 +493,12 @@
       <workItem from="1484846271831" duration="4864000" />
       <workItem from="1485183772100" duration="360000" />
       <workItem from="1485188626448" duration="1477000" />
-      <workItem from="1485453581593" duration="354000" />
+      <workItem from="1485453581593" duration="2931000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68141000" />
+    <option name="totallyTimeSpent" value="70718000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
@@ -880,14 +878,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/apis/clan.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="16" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -907,14 +897,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/debug/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -943,10 +925,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/util/rss.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="73" selection-start-line="35" selection-start-column="73" selection-end-line="35" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/util/request.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        <state relative-caret-position="493">
+          <caret line="34" column="23" selection-start-line="31" selection-start-column="16" selection-end-line="34" selection-end-column="23" />
           <folding>
             <element signature="e#245#539#0" expanded="false" />
             <element signature="e#2487#2850#0" expanded="false" />
@@ -957,10 +947,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/util/rss.js">
+    <entry file="file://$PROJECT_DIR$/debug/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="73" selection-start-line="35" selection-start-column="73" selection-end-line="35" selection-end-column="73" />
+        <state relative-caret-position="153">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/apis/clan.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -978,7 +976,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
-            <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+            <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
             <folding />
           </first_editor>
           <second_editor />
