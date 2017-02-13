@@ -139,5 +139,10 @@
       "Woodcutting product",
       "Pocket items"
     ]
+  },
+  "news": {
+    "urls": {
+      "rss": "http://services.runescape.com/m=news/latest_news.rss"
+    }
   }
 }
