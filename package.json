@@ -1,6 +1,6 @@
 {
   "name": "rs-api",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Simple wrapper for RuneScape APIs written in node.",
   "author": "Alex Kempf <ackempf@eagles.usi.edu>",
   "repository": {
