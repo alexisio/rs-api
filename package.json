@@ -5,7 +5,7 @@
   "author": "Alex Kempf <ackempf@eagles.usi.edu>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexisio/rs-api"
+    "url": "https://github.com/oalx/rs-api"
   },
   "keywords": [
     "runescape",
@@ -13,7 +13,7 @@
     "api"
   ],
   "bugs": {
-    "url": "https://github.com/alexisio/rs-api/issues"
+    "url": "https://github.com/oalx/rs-api/issues"
   },
   "dependencies": {
     "feedme": "^0.3.3",

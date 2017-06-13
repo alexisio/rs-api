@@ -1,6 +1,6 @@
 # RS API
 
-[![Build Status](https://api.travis-ci.org/alexisio/rs-api.svg?branch=master)](https://travis-ci.org/alexisio/rs-api) [![Dependency Status](https://david-dm.org/alexisio/rs-api.svg)](https://david-dm.org/alexisio/rs-api)
+[![Build Status](https://api.travis-ci.org/oalx/rs-api.svg?branch=master)](https://travis-ci.org/oalx/rs-api) [![Dependency Status](https://david-dm.org/oalx/rs-api.svg)](https://david-dm.org/oalx/rs-api)
 
 ## Introduction
 
@@ -25,4 +25,4 @@ Usage can be found on the docs page [here][docs]
 [runescape]: http://www.runescape.com
 [runescape-api]: https://github.com/Joshua-F/runescape-api
 [mit]: http://opensource.org/licenses/MIT
-[docs]: https://alexisio.github.io/rs-api/
+[docs]: https://oalx.github.io/rs-api/

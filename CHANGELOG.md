@@ -1,3 +1,10 @@
+2.1.3 - 2017-02-13
+=======================
+### Fixed
+* Player Details by adding method to get a session
+* Must have node environment variables set for username and password. These need to be a valid runescape login to create the session.
+
+
 2.1.0 - 2017-02-13
 =======================
 ### Added
