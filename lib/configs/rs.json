@@ -1,7 +1,7 @@
 {
   "player": {
     "urls": {
-      "playerDetails": "http://services.runescape.com/m=website-data/playerDetails.ws?names="
+      "playerDetails": "http://services.runescape.com/m=website-data/playerDetails.ws?membership=true&names="
     },
     "hiscores": {
       "urls": {
