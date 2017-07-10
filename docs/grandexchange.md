@@ -95,6 +95,23 @@ Get rscripts data for item(s) matching the name passed in (available for `rs`)
 ```
 
 
+### Grand Exchange.getItem(item) 
+
+Gets item information using RS Wiki data. (available for `rs`)
+
+**Parameters**
+
+**item**: , Gets item information using RS Wiki data. (available for `rs`)
+
+**Returns**: `Object`, Object of the item data stored by RS Wiki
+
+**Example**:
+
+```js
+api.rs.ge.getItem('mazcab ability codex').then(function(item) { console.log(item);}).catch(console.error);
+```
+
+
 
 * * *
 
