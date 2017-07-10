@@ -1,3 +1,10 @@
+2.2.0 - 2017-07-10
+=======================
+### Added
+* Method to look up prices by name with RS Wiki since RScript seems to be lacking newer items ids. Note, did not remove the RScript functionality.
+* Method to look up player profile from the RuneMetrics API
+
+
 2.1.3 - 2017-02-13
 =======================
 ### Fixed
