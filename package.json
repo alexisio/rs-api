@@ -16,6 +16,9 @@
     "url": "https://github.com/oalx/rs-api/issues"
   },
   "dependencies": {
+    "async": "^2.5.0",
+    "chunk": "0.0.2",
+    "colors": "^1.1.2",
     "feedme": "^0.3.3",
     "google-spreadsheet": "^2.0.3",
     "jsdox": "^0.4.10",

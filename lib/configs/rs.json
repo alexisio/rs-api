@@ -1,7 +1,8 @@
 {
   "player": {
     "urls": {
-      "playerDetails": "http://services.runescape.com/m=website-data/playerDetails.ws?membership=true&names="
+      "playerDetails": "http://services.runescape.com/m=website-data/playerDetails.ws?membership=true&names=",
+      "profile": "https://apps.runescape.com/runemetrics/profile/profile?activities=20&user="
     },
     "hiscores": {
       "urls": {
@@ -64,6 +65,35 @@
         "CFP: 5 game average",
         "AF15: Cow Tipping",
         "AF15: Rats killed after the miniquest"
+      ],
+      "skillIds": [
+        {"id": 0, "name":"Attack"},
+        {"id": 1, "name": "Defence"},
+        {"id": 2, "name": "Strength"},
+        {"id": 3, "name": "Hitpoints"},
+        {"id": 4, "name": "Ranged"},
+        {"id": 5, "name": "Prayer"},
+        {"id": 6, "name": "Magic"},
+        {"id": 7, "name": "Cooking"},
+        {"id": 8, "name": "Woodcutting"},
+        {"id": 9, "name": "Fletching"},
+        {"id": 10, "name": "Fishing"},
+        {"id": 11, "name": "Firemaking"},
+        {"id": 12, "name": "Crafting"},
+        {"id": 13, "name": "Smithing"},
+        {"id": 14, "name": "Mining"},
+        {"id": 15, "name": "Herblore"},
+        {"id": 16, "name": "Agility"},
+        {"id": 17, "name": "Thieving"},
+        {"id": 18, "name": "Slayer"},
+        {"id": 19, "name": "Farming"},
+        {"id": 20, "name": "Runecrafting"},
+        {"id": 21, "name": "Hunter"},
+        {"id": 22, "name": "Construction"},
+        {"id": 23, "name": "Summoning"},
+        {"id": 24, "name": "Dungeoneering"},
+        {"id": 25, "name": "Divination"},
+        {"id": 26, "name": "Invention"}
       ]
     },
     "events": {
