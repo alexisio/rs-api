@@ -1,3 +1,8 @@
+2.2.2 - 2017-07-13
+=======================
+### Fixed
+* Made RS Wiki API ge lookup first try check string as is (only replacing spaces for underscores)
+
 2.2.1 - 2017-07-10
 =======================
 ### Fixed

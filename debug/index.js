@@ -19,7 +19,7 @@ function resolve(d) {
 //api.rs.player.hiscores('sync').then(console.log).catch(console.error);
 //api.rs.player.profile('sync').then(console.log).catch(console.error);
 
-api.rs.ge.getItem('Reprisal Ability Codex').then(function(item) {
+api.rs.ge.getItem('Dormant Staff of Sliske').then(function(item) {
     console.log(item);
     console.log(item.itemId);
 }).catch(console.error);
