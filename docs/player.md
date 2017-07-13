@@ -44,7 +44,7 @@ Gets a users events log (aka adventure log) (available for `rs`)
 
 ### Player.details(usernames) 
 
-Returns the input user(s) clan, title, if the clan is recruiting, and if the title is a suffix
+Returns the input user(s) clan, title, if the clan is recruiting, if the title is a suffix, as well as online statusif process.env.username and process.env.password are configured to a valid RS sign-in
 
 **Parameters**
 
@@ -56,6 +56,23 @@ Returns the input user(s) clan, title, if the clan is recruiting, and if the tit
 
 ```js
 rsapi.rs.player.details(['sync','xredfoxx']).then(function(details) { console.log(details);}).catch(console.error);
+```
+
+
+### Player.profile(usernames) 
+
+Return RuneMetrics profile for user
+
+**Parameters**
+
+**usernames**: , Return RuneMetrics profile for user
+
+**Returns**: `Promise`, Object of the users player profile
+
+**Example**:
+
+```js
+rsapi.rs.player.profile('sync').then(function(profile) { console.log(profile);}).catch(console.error);
 ```
 
 

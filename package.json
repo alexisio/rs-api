@@ -23,7 +23,7 @@
     "google-spreadsheet": "^2.0.3",
     "jsdox": "^0.4.10",
     "promise": "^7.0.1",
-    "request": "^2.56.0",
+    "request": "^2.81.0",
     "scrape-it": "^3.2.2",
     "twitter": "^1.7.0",
     "util": "^0.10.3",
