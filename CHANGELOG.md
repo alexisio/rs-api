@@ -1,3 +1,13 @@
+2.2.4- 2017-07-13
+=======================
+### Fixed
+* Request security vulnerability
+
+2.2.3 - 2017-07-13
+=======================
+### Fixed
+* Removed some dumb console.logs that annoyed me
+
 2.2.2 - 2017-07-13
 =======================
 ### Fixed
