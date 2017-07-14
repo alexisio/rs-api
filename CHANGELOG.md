@@ -1,4 +1,9 @@
-2.2.4- 2017-07-13
+2.2.5 - 2017-07-14
+=======================
+### Changed
+* toTitleCase function to exclude caps of words like 'of', 'an', etc to help with wiki ge lookups on words like `Staff of Sliske`
+
+2.2.4 - 2017-07-13
 =======================
 ### Fixed
 * Request security vulnerability
