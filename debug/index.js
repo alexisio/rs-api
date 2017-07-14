@@ -20,6 +20,8 @@ api.rs.player.hiscores('sync').then(console.log).catch(console.error);
 api.rs.player.profile('sync').then(console.log).catch(console.error);
 
 */
-api.rs.ge.getItem('Dormant Staff Of Sliske').then(function(item) {
+/*api.rs.ge.getItem('staff of sliske').then(function(item) {
     console.log(item);
-}).catch(console.error);
+}).catch(console.error);*/
+
+api.rs.distraction.circus.getRotation().then(console.log).catch(console.error);
