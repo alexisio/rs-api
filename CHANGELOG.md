@@ -1,3 +1,8 @@
+2.5.0 - 2018-02-28
+=======================
+### Changed
+* Made profile stats schema match the hiscores stats schema
+
 2.4.5 - 2017-07-27
 =======================
 ### Fixed
