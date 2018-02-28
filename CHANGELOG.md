@@ -1,3 +1,8 @@
+2.5.2 - 2018-02-28
+=======================
+### Fixed
+* Profile now properly converts numbers from strings for overall
+
 2.5.1 - 2018-02-28
 =======================
 ### Fixed
