@@ -1,3 +1,8 @@
+2.6.0 - 2018-02-28
+=======================
+### Changed
+* Ensured consistency in return set (name and stats) between hiscores and profile
+
 2.5.3 - 2018-02-28
 =======================
 ### Fixed

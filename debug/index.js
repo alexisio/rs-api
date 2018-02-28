@@ -8,8 +8,8 @@ function resolve(d) {
     console.log(d);
 }
 
-api.rs.player.profile('sync').then(console.log).catch(console.error);
-//api.rs.player.hiscores('sync').then(console.log).catch(console.error);
+//api.rs.player.profile('sync').then(console.log).catch(console.error);
+api.rs.player.hiscores('sync').then(console.log).catch(console.error);
 /*
 api.rs.player.events('sync').then(console.log).catch(console.error);
 api.rs.player.details(['maybedatwasrel']).then(console.log).catch(console.error);
