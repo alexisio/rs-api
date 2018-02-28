@@ -1,3 +1,8 @@
+2.5.1 - 2018-02-28
+=======================
+### Fixed
+* Added decimal point that jagex decided not to put in the stats for profile via runemetrics
+
 2.5.0 - 2018-02-28
 =======================
 ### Changed

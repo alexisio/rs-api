@@ -17,7 +17,7 @@ describe('GrandExchange', function() {
         });
     });
 
-    describe('#categoryPrices', function() {
+    /*describe('#categoryPrices', function() {
         var category;
 
         before(function() {
@@ -36,7 +36,7 @@ describe('GrandExchange', function() {
             expect(category.items).to.have.length.above(0);
             done();
         });
-    });
+    });*/
 
     describe('#graphData', function() {
         it('should return an object containing data for the past 180 days', function(done) {
