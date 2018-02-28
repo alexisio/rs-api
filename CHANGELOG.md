@@ -1,3 +1,8 @@
+2.5.3 - 2018-02-28
+=======================
+### Fixed
+* NaN issue with overall rank conversion fixed
+
 2.5.2 - 2018-02-28
 =======================
 ### Fixed
