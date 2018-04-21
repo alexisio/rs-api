@@ -10,6 +10,7 @@ function resolve(d) {
 
 //api.rs.player.profile('sync').then(console.log).catch(console.error);
 api.rs.distraction.viswax.getCurrent().then(console.log).catch(console.error);
+//api.rs.ge.itemInformation('1515').then(console.log).catch(console.error);
 /*
 api.rs.player.events('sync').then(console.log).catch(console.error);
 api.rs.player.details(['maybedatwasrel']).then(console.log).catch(console.error);
