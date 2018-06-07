@@ -1,3 +1,8 @@
+2.6.4 - 2018-06-07
+=======================
+### Added
+* Configs updated to map clue scrolls returned from the rs lite hiscores
+
 2.6.0 - 2018-02-28
 =======================
 ### Changed
