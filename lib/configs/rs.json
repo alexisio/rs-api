@@ -64,7 +64,12 @@
         "Heist Robber Level",
         "CFP: 5 game average",
         "AF15: Cow Tipping",
-        "AF15: Rats killed after the miniquest"
+        "AF15: Rats killed after the miniquest",        
+        "Easy clue scrolls",
+        "Medium clue scrolls",
+        "Hard clue scrolls",
+        "Elite clue scrolls",
+        "Master clue scrolls"
       ],
       "skillIds": [
         {"id": 0, "name":"Attack"},
