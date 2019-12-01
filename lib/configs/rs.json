@@ -134,7 +134,7 @@
       "graph": "http://services.runescape.com/m=itemdb_rs/api/graph/",
       "information": "http://services.runescape.com/m=itemdb_rs/api/catalogue/detail.json?item=",
       "rscript": "http://rscript.org/lookup.php?type=ge&search=",
-      "wiki": "http://runescape.wikia.com/wiki/Module:Exchange/"
+      "wiki": "https://runescape.wiki/w/Module:Exchange/"
     },
     "categories": [
       "Miscellaneous",

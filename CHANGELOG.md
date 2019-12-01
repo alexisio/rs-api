@@ -1,3 +1,8 @@
+2.6.6 - 2019-11-30
+=======================
+### Fixed
+* Updated grand exchange wiki to new runescape.wiki domain
+
 2.6.5 - 2019-05-15
 =======================
 ### Fixed
