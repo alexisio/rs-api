@@ -1,3 +1,8 @@
+2.6.8 - 2019-11-30
+=======================
+### Fixed
+* Updated portables command to match new portables spreadsheet layout
+
 2.6.6 - 2019-11-30
 =======================
 ### Fixed
